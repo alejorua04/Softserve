@@ -1,6 +1,6 @@
 //THE HASHTAG GENERATOR
 
-function hashtagGenerator (phrase) {
+function hashtagGenerator(phrase) {
     let wordArray = phrase.split(' ').filter(char => char !== "");
     let result = "#";
     
