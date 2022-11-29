@@ -9,6 +9,6 @@ function pal(number) {
       return true;
 }
 function nextPal(number) {
-    while(!palindrome(++number)) {}
+    while(!pal(++number)) {}
       return number;
 }
