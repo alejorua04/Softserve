@@ -1,0 +1,10 @@
+//CREATE PHONE NUMBER
+
+function phoneNumber(tnumber) {
+    let convert = "(xxx) xxx-xxxx";
+    tnumber.forEach(item => {
+        convert = convert.replace("x", item);
+      }
+    );
+    return convert;
+}
